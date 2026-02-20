@@ -1,0 +1,13 @@
+[workspace]
+members = [
+    "exercises/01_hello_world",
+    "exercises/02_primitives",
+    "exercises/03_custom_types",
+    "exercises/04_variable_bindings",
+    "exercises/05_control_flow",
+    "exercises/06_functions",
+    "exercises/07_ownership_borrowing",
+    "exercises/08_error_handling",
+    "exercises/09_collections",
+]
+resolver = "2"
