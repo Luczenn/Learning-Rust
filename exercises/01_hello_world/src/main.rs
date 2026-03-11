@@ -38,10 +38,16 @@ fn main() {
 
     // --- Exercise: Try it yourself! ---
     // 1. Print your name and favourite number.
+    println!("My name is {}. My favourite nr is {}","Lucas", 7);
     // 2. Print a tuple (x, y, z) using {:?}.
     // 3. Use {:#?} (pretty-print debug) to print a larger array.
     println!("\n--- Your turn! Uncomment the exercises below ---");
     // println!("My name is {} and my favourite number is {}", "...", 0);
+    let a = 'a';
+    let b = 'b';
+    let c = 'd';
+    let tuple = (a,b,c);
+    println!("2. First letters of alphabet : {},{},{}",tuple.0,tuple.1,tuple.2);
 }
 
 #[cfg(test)]
